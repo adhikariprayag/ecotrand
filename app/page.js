@@ -45,28 +45,28 @@ export default function Home() {
           <SwiperSlide>
             <div className='img-wrapper w-full h-[100dvh] relative flex justify-center items-center text-wrap'>
               <Image src={Bg1} width={0} height={0} alt='background' className='object-cover h-full w-full'></Image>
-              <p className=' text-[120px] font-extrabold absolute text-stroke animate__animated animate__fadeInRight'>HYDRO</p>
+              <p className='text-[80px]  md:text-[120px] font-extrabold absolute text-stroke animate__animated animate__fadeInRight'>HYDRO</p>
               <h5 className='animate__animated animate__fadeInRight absolute text-[80px] font-extrabold mt-[180px] text-light text-white'>energy <span className='text-sky-500'>.</span></h5>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className='img-wrapper w-full h-[100dvh] relative flex justify-center items-center text-wrap'>
               <Image src={Bg2} width={0} height={0} alt='background' className='object-cover h-full w-full'></Image>
-              <p className=' text-[120px] font-extrabold absolute text-stroke animate__animated animate__fadeInRight'>SOLAR</p>
+              <p className=' text-[80px]  md:text-[120px] font-extrabold absolute text-stroke animate__animated animate__fadeInRight'>SOLAR</p>
               <h5 className='animate__animated animate__fadeInRight absolute text-[80px] font-extrabold mt-[180px] text-light text-white'>energy <span className='text-yellow-400'>.</span></h5>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className='img-wrapper w-full h-[100dvh] relative flex justify-center items-center text-wrap'>
               <Image src={Bg3} width={0} height={0} alt='background' className='object-cover h-full w-full'></Image>
-              <p className=' text-[120px] font-extrabold absolute text-stroke animate__animated animate__fadeInRight'>BIOGAS</p>
+              <p className=' text-[80px]  md:text-[120px] font-extrabold absolute text-stroke animate__animated animate__fadeInRight'>BIOGAS</p>
               <h5 className='animate__animated animate__fadeInRight absolute text-[80px] font-extrabold mt-[180px] text-light text-white'>energy <span className='text-slate-400'>.</span></h5>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className='img-wrapper w-full h-[100dvh] relative flex justify-center items-center text-wrap'>
               <Image src={Bg4} width={0} height={0} alt='background' className='object-cover h-full w-full'></Image>
-              <p className=' text-[120px] font-extrabold absolute text-stroke animate__animated animate__fadeInRight'>WIND</p>
+              <p className=' text-[80px]  md:text-[120px] font-extrabold absolute text-stroke animate__animated animate__fadeInRight'>WIND</p>
               <h5 className='animate__animated animate__fadeInRight absolute text-[80px] font-extrabold mt-[180px] text-light text-white'>energy <span className='text-slate-400'>.</span></h5>
             </div>
           </SwiperSlide>
