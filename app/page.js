@@ -82,17 +82,34 @@ export default function Home() {
         </div>
       </div>
       <section className="boxes flex flex-wrap">
-        <div className='box box-1 lg:w-1/4 md:w-1/2 w-full'>
-          <Image src={b1} width={0} height={0} alt='background' className='h-[300px] object-cover'></Image>
+
+
+        <div className='box box-1 lg:w-1/4 md:w-1/2 w-full h-[320px] flex justify-center items-center flex-col relative'>
+          <Image src={b1} width={0} height={0} alt='background' className='h-[320px] w-full object-cover '></Image>
+          <i className="ri-fire-line text-[54px] absolute top-[30%] text-white"></i>
+          <p className='text-[54px] font-extrabold absolute top-[50%] text-stroke sfill'>BIO</p>
+          <h5 className='text-[34px] font-extrabold text-white absolute top-[68%]'>energy <span className='text-slate-500'>.</span></h5>
         </div>
-        <div className='box box-4 lg:w-1/4 md:w-1/2 w-full'>
-          <Image src={b2} width={0} height={0} alt='background' className='h-[300px] object-cover'></Image>
+
+        <div className='box box-4 lg:w-1/4 md:w-1/2 w-full h-[320px] flex justify-center items-center flex-col relative'>
+          <Image src={b2} width={0} height={0} alt='background' className='h-[320px] w-full object-cover'></Image>
+          <i className="ri-sun-line text-[54px] absolute top-[30%] text-white"></i>
+          <p className='text-[54px] font-extrabold absolute top-[50%] text-stroke'>SOLAR</p>
+          <h5 className='text-[34px] font-extrabold text-white absolute top-[68%]'>energy <span className='text-yellow-500'>.</span></h5>
         </div>
-        <div className='box box-3 lg:w-1/4 md:w-1/2 w-full'>
-          <Image src={b3} width={0} height={0} alt='background' className='h-[300px] object-cover'></Image>
+
+        <div className='box box-3 lg:w-1/4 md:w-1/2 w-full h-[320px] flex justify-center items-center flex-col relative'>
+          <Image src={b3} width={0} height={0} alt='background' className='h-[320px] w-full object-cover'></Image>
+          <i className="ri-drop-line text-[54px] absolute top-[30%] text-white"></i>
+          <p className='text-[54px] font-extrabold absolute top-[50%] text-stroke'>HYDRO</p>
+          <h5 className='text-[34px] font-extrabold text-white absolute top-[68%]'>energy <span className='text-sky-500'>.</span></h5>
         </div>
-        <div className='box box-4 lg:w-1/4 md:w-1/2 w-full'>
-          <Image src={b4} width={0} height={0} alt='background' className='h-[300px] object-cover'></Image>
+
+        <div className='box box-4 lg:w-1/4 md:w-1/2 w-full h-[320px] flex justify-center items-center flex-col relative'>
+          <Image src={b4} width={0} height={0} alt='background' className='h-[320px] w-full object-cover'></Image>
+          <i className="ri-bar-chart-horizontal-line text-[54px] absolute top-[30%] text-white"></i>
+          <p className='text-[54px] font-extrabold absolute top-[50%] text-stroke'>WIND</p>
+          <h5 className='text-[34px] font-extrabold text-white absolute top-[68%]'>energy <span className='text-green-500'>.</span></h5>
         </div>
       </section>
     </main>

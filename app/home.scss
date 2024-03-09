@@ -8,14 +8,6 @@ main {
         }
 
 
-        .text-stroke {
-            color: black;
-            -webkit-text-fill-color: transparent;
-            /* Will override color (regardless of order) */
-            -webkit-text-stroke-width: 2px;
-            -webkit-text-stroke-color: #fff;
-        }
-
         .video-box {
 
             height: 200px;
@@ -53,7 +45,7 @@ main {
                 font-weight: 600;
             }
 
-            .video-con::after{
+            .video-con::after {
                 position: absolute;
                 content: url(../img/play-line.svg);
                 color: #fff;
@@ -70,15 +62,24 @@ main {
             }
 
             @keyframes rotate {
-                0%{
+                0% {
                     transform: rotate(0deg);
                 }
 
-                100%{
+                100% {
                     transform: rotate(360deg);
                 }
             }
         }
     }
 
+    .text-stroke {
+        color: black;
+        -webkit-text-fill-color: transparent;
+        /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #fff;
+    }
+
+    
 }
