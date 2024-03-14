@@ -21,6 +21,7 @@ import b2 from '../img/12.jpg'
 import b3 from '../img/11.jpg'
 import b4 from '../img/10.jpg'
 import lf from '../img/34.jpg'
+import rotate from '../img/rotate.png'
 
 import './home.scss'
 import 'animate.css';
@@ -119,9 +120,14 @@ export default function Home() {
       <section className='py-11 info-section'>
         <div className="container mx-auto p-8 flex lg:flex-row flex-col  justify-center gap-8 lg:justify-between items-center max-w-[1400px]">
           <div className="lg:w-[60%] lg:p-20 md w-full">
-            <div className='w-full h-full img-turbine'>
+            <div className='w-full h-full img-turbine relative'>
               <Image src={lf} width={0} height={0} alt='bg'></Image>
+
+              <div className='rotate-text absolute bottom-5 left-5 w-[90px] md:w-[150px] opacity-75'>
+                <Image src={rotate} width={0} height={0} alt='text'></Image>
+              </div>
             </div>
+
           </div>
           <div className='lg:w-[40%] w-full'>
             <h2 className='font-bold text-[24px] md:text-6xl w-[80%] text-[#2D3545] text-wrap'>Investing in clean energy generation</h2>
@@ -131,7 +137,22 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="marquee marquee--1">
+          <div className="track">
+            <div className="text-[74px]  font-bold stroke--text">&nbsp;The potential of renewable energy is immense The potential of renewable energy is immense The potential of renewable energy is immense The potential of renewable energy is immense The potential of renewable energy is immense The potential of renewable energy is immense </div>
+          </div>
+        </div>
+        <div className="marquee marquee--2">
+          <div className="track">
+            <div className="text-[74px] text-[#2D3545] font-bold ">&nbsp;The potential of renewable energy is immense The potential of renewable energy is immense The potential of renewable energy is immense The potential of renewable energy is immense The potential of renewable energy is immense The potential of renewable energy is immense </div>
+          </div>
+        </div>
       </section>
+
+      <section className="plan-section py-11">
+
+      </section>
+      
     </main>
   );
 }
