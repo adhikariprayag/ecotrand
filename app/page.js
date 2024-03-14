@@ -22,6 +22,7 @@ import b3 from '../img/11.jpg'
 import b4 from '../img/10.jpg'
 import lf from '../img/34.jpg'
 import rotate from '../img/rotate.png'
+import leaf from '../img/leaf-3.png'
 
 import './home.scss'
 import 'animate.css';
@@ -149,10 +150,37 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="plan-section py-11">
+      <section className="plan-section py-24 px-4 relative">
+        <div className="container mx-auto max-w-[1200px] flex flex-col lg:flex-row py-3 gap-5 ">
+          <div className='plan-box lg:w-[33%] w-full plan-box-1 lg:h-[25em] h-[300px]'>
+            <h3>We plan each project individually</h3>
+            <p>Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim in ipsum id orci porta dapibus.</p>
+            <div className="num-con num-con-1 ">
+              01
+            </div>
+          </div>
 
+          <div className='plan-box lg:w-[33%] w-full plan-box-2 lg:justify-center lg:h-[25em] h-[300px]'>
+            <h3>We provide research & analysis for any case</h3>
+            <p>Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim in ipsum id orci porta dapibus.</p>
+            <div className="num-con num-con-2 ">
+              02
+            </div>
+          </div>
+
+          <div className='plan-box lg:w-[33%] w-full plan-box-3 lg:justify-end lg:h-[25em] h-[300px]'>
+            <h3>We make it happen whatever it takes</h3>
+            <p>Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim in ipsum id orci porta dapibus.</p>
+            <div className="num-con num-con-3">
+              03
+            </div>
+          </div>
+
+          
+        </div>
+        <Image src={leaf} width={0} height={0} alt='leaf' className='absolute top-0 right-0 z-[-100] hidden sm:block'></Image>
       </section>
-      
+
     </main>
   );
 }

@@ -217,4 +217,66 @@ main {
             }
         }
     }
+
+    .plan-section {
+
+        .plan-box {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+
+            h3 {
+                font-size: 2rem;
+                font-weight: bold;
+                color: black;
+            }
+
+            p {
+                color: gray;
+                font-size: 1rem;
+            }
+
+            .num-con {
+                position: absolute;
+                right: 0;
+                z-index: 1;
+                font-size: 114px;
+                color: rgba(128, 128, 128, 0.34);
+                font-weight: bold;
+                color: black;
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: #000;
+                opacity: 0.2;
+            }
+
+            .num-con-1 {
+                top: 0px;
+                @media (min-width:1024px) {
+                    top: -15% !important;
+                    transform:  !important;
+                }
+            }
+
+            .num-con-2 {
+                top: 0px;
+                @media (min-width:1024px) {
+                    top: 10% !important;
+                    
+                }
+
+            }
+
+            .num-con-3 {
+                top: 0px;
+                @media (min-width:1024px) {
+                    top: 35% !important;
+                }
+            }
+        }
+
+
+    }
 }
