@@ -189,11 +189,11 @@ export default function Home() {
         <div className="lg:w-[45%] ">
           <div className='relative after-img'>
             <a href="https://www.youtube.com/watch?v=1kUE0BZtTRc" target='_blank'>
-              <Image src={turbine} width={0} height={0} alt='a picture of turbine' className=' '></Image>
+              <Image src={turbine} width={0} height={0} alt='a picture of turbine'></Image>
               <i className="ri-play-line absolute top-[50%] text-white left-[50%] text-5xl"></i>
               <div className='absolute top-[-50%] translate-y-[10%] z-[-1]'>
 
-                <Image src={leaf25} width={0} height={0} alt='leaf' className=''></Image>
+                <Image src={leaf25} width={0} height={0} alt='leaf'></Image>
               </div>
             </a>
 
