@@ -50,7 +50,7 @@ export default function Home() {
         >
           <SwiperSlide>
             <div className='img-wrapper w-full h-[100dvh] relative flex justify-center items-center text-wrap'>
-              <Image src={Bg1} width={0} height={0} alt='background' className='object-cover h-full w-full'></Image>
+              <Image src={Bg1} width={0} height={0} alt='background' className='object-cover h-full w-full' priority></Image>
               <p className='text-[54px]  md:text-[120px] font-extrabold absolute text-stroke animate__animated animate__fadeInRight'>HYDRO</p>
               <h5 className='animate__animated animate__fadeInRight absolute text-[54px] md:text-[80px] font-extrabold mt-[180px] text-light text-white'>energy <span className='text-sky-500'>.</span></h5>
             </div>
