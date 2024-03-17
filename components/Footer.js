@@ -45,7 +45,7 @@ function Footer() {
                             <div className="circle-con text-center relative lg:w-1/4 w-[50%] ">
                                 <h3 className='stroke-text'>6K</h3>
                                 <div className='img-con absolute top-[50%] translate-y-[-70%] left-[50%] translate-x-[-50%]'>
-                                    <Image src={text1} width={0} height={0} className=''></Image>
+                                    <Image src={text1} width={0} height={0} className='' alt='img' ></Image>
                                 </div>
                                 <p className='text-[16px] font-semibold uppercase text-[#2D3545] '>COMPLETED</p>
                                 <p className='font-bold text-3xl text-[#2D3545]'>PROJECTS</p>
@@ -54,7 +54,7 @@ function Footer() {
                             <div className="circle-con text-center relative lg:w-1/4 w-[50%]">
                                 <h3 className='stroke-text'>4K</h3>
                                 <div className='img-con absolute top-[50%] translate-y-[-70%] left-[50%] translate-x-[-50%]'>
-                                    <Image src={text1} width={0} height={0} className=''></Image>
+                                    <Image src={text1} width={0} height={0} className='' alt='img' ></Image>
                                 </div>
                                 <p className='text-[16px] font-semibold uppercase text-[#2D3545]'>SATISFIED</p>
                                 <p className='font-bold text-3xl text-[#2D3545] uppercase'>Customers</p>
@@ -63,7 +63,7 @@ function Footer() {
                             <div className="circle-con text-center relative lg:w-1/4 w-[50%]">
                                 <h3 className='stroke-text'>18</h3>
                                 <div className='img-con absolute top-[50%] translate-y-[-70%] left-[50%] translate-x-[-50%]'>
-                                    <Image src={text1} width={0} height={0} className=''></Image>
+                                    <Image src={text1} width={0} height={0} className='' alt='img' ></Image>
                                 </div>
                                 <p className='text-[16px] font-semibold uppercase text-[#2D3545]'>EARNED</p>
                                 <p className='font-bold text-3xl text-[#2D3545] tracking-widest'>AWARDS</p>
@@ -72,7 +72,7 @@ function Footer() {
                             <div className="circle-con text-center relative lg:w-1/4 w-[50%]">
                                 <h3 className='stroke-text'>25</h3>
                                 <div className='img-con absolute top-[50%] translate-y-[-70%] left-[50%] translate-x-[-50%]'>
-                                    <Image src={text1} width={0} height={0} className=''></Image>
+                                    <Image src={text1} width={0} height={0} className='' alt='img'></Image>
                                 </div>
                                 <p className='text-[16px] font-semibold uppercase text-[#2D3545]'>Years</p>
                                 <p className='font-bold text-3xl text-[#2D3545] uppercase'>Experience</p>
