@@ -1,0 +1,83 @@
+footer {
+    .nav-item-btn {
+        a {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+            color: transparent;
+        }
+
+        a::before {
+            content: 'Send Message';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #000;
+            transition: all 0.3s;
+        }
+
+        a::after {
+            content: 'Send Message';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: -100%;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #2d3545;
+            color: #fff;
+            z-index: -1;
+            transition: all 0.2s;
+        }
+
+        a:hover {
+            background-color: #2d3545;
+            color: #2d3545;
+        }
+
+        a:hover::before {
+            right: -100%;
+        }
+
+        a:hover::after {
+            left: 0;
+            z-index: 1;
+        }
+    }
+
+    .footer-report {
+        background-image: url(../img/texture.png);
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    .stroke-text {
+        font-size: 44px;
+        font-weight: bold;
+        color: #27D2A3;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #27D2A3;
+        line-height: 200px;
+
+    }
+
+    img{
+        animation: rotate 20s linear infinite normal;
+        width: 200px !important;
+    }
+
+    @keyframes rotate {
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+}
