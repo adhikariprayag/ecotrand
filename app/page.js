@@ -203,7 +203,7 @@ export default function Home() {
         </div>
 
         <div className="lg:w-[55%] px-36 py-36">
-          <h2 className='text-6xl font-bold text-[#2D3545]'>We're building a better future</h2>
+          <h2 className='text-6xl font-bold text-[#2D3545]'>We are building a better future</h2>
         </div>
       </section>
       {/* PURPOSE SECTION */}
