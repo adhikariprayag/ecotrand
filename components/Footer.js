@@ -45,7 +45,7 @@ function Footer() {
                             <div className="circle-con text-center relative lg:w-1/4 w-[50%] ">
                                 <h3 className='stroke-text'>6K</h3>
                                 <div className='img-con absolute top-[50%] translate-y-[-70%] left-[50%] translate-x-[-50%]'>
-                                    <Image src={text1} width={0} height={0} className='' alt='img' ></Image>
+                                    <Image src={text1} width={0} height={0} className='' alt='image' ></Image>
                                 </div>
                                 <p className='text-[16px] font-semibold uppercase text-[#2D3545] '>COMPLETED</p>
                                 <p className='font-bold text-3xl text-[#2D3545]'>PROJECTS</p>
@@ -91,8 +91,8 @@ function Footer() {
 
                     </div>
                 </section>
-
-
+{/* 
+comment */}
             </footer>
             <section className="bottom-part text-center py-5 bg-white text-black shadow-sm align-middle">
                 Copyright © 2021 All Rights Reserved
