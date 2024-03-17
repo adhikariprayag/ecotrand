@@ -153,8 +153,8 @@ export default function Home() {
       </section>
 
       <section className="plan-section py-24 px-4 relative">
-        <div className="container mx-auto max-w-[1200px] flex flex-col lg:flex-row py-3 gap-5 ">
-          <div className='plan-box lg:w-[33%] w-full plan-box-1 lg:h-[25em] h-[300px]'>
+        <div className="container mx-auto max-w-[1200px] flex flex-col lg:flex-row py-3 lg:gap-5 gap-2">
+          <div className='plan-box lg:w-[33%] w-full plan-box-1 lg:h-[25em] h-[200px] '>
             <h3>We plan each project individually</h3>
             <p>Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim in ipsum id orci porta dapibus.</p>
             <div className="num-con num-con-1 ">
@@ -162,7 +162,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='plan-box lg:w-[33%] w-full plan-box-2 lg:justify-center lg:h-[25em] h-[300px]'>
+          <div className='plan-box lg:w-[33%] w-full plan-box-2 lg:justify-center lg:h-[25em] h-[200px]'>
             <h3>We provide research & analysis for any case</h3>
             <p>Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim in ipsum id orci porta dapibus.</p>
             <div className="num-con num-con-2 ">
@@ -170,7 +170,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='plan-box lg:w-[33%] w-full plan-box-3 lg:justify-end lg:h-[25em] h-[300px]'>
+          <div className='plan-box lg:w-[33%] w-full plan-box-3 lg:justify-end lg:h-[25em] h-[200px]'>
             <h3>We make it happen whatever it takes</h3>
             <p>Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim in ipsum id orci porta dapibus.</p>
             <div className="num-con num-con-3">
@@ -191,7 +191,7 @@ export default function Home() {
             <a href="https://www.youtube.com/watch?v=1kUE0BZtTRc" target='_blank'>
               <Image src={turbine} width={0} height={0} alt='a picture of turbine'></Image>
               <i className="ri-play-line absolute top-[50%] text-white left-[50%] text-5xl"></i>
-              <div className='absolute top-[-50%] translate-y-[10%] z-[-1]'>
+              <div className='absolute top-[-50%] translate-y-[10%] z-[-1] hidden lg:block'>
 
                 <Image src={leaf25} width={0} height={0} alt='leaf'></Image>
               </div>
@@ -202,7 +202,7 @@ export default function Home() {
 
         </div>
 
-        <div className="lg:w-[55%] px-36 py-36">
+        <div className="lg:w-[55%] px-28 py-36">
           <h2 className='text-6xl font-bold text-[#2D3545]'>We are building a better future</h2>
         </div>
       </section>
