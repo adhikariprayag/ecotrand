@@ -23,6 +23,8 @@ import b4 from '../img/10.jpg'
 import lf from '../img/34.jpg'
 import rotate from '../img/rotate.png'
 import leaf from '../img/leaf-3.png'
+import turbine from '../img/25.jpg'
+import leaf25 from '../img/25bg.png'
 
 import './home.scss'
 import 'animate.css';
@@ -176,11 +178,35 @@ export default function Home() {
             </div>
           </div>
 
-          
+
         </div>
         <Image src={leaf} width={0} height={0} alt='leaf' className='absolute top-0 right-0 z-[-100] hidden sm:block'></Image>
       </section>
 
+      {/* PURPOSE SECTION */}
+      <section className="purpose-section lg:flex ">
+
+        <div className="lg:w-[45%] ">
+          <div className='relative after-img'>
+            <a href="https://www.youtube.com/watch?v=1kUE0BZtTRc" target='_blank'>
+              <Image src={turbine} width={0} height={0} alt='a picture of turbine' className=' '></Image>
+              <i className="ri-play-line absolute top-[50%] text-white left-[50%] text-5xl"></i>
+              <div className='absolute top-[-50%] translate-y-[10%] z-[-1]'>
+
+                <Image src={leaf25} width={0} height={0} alt='leaf' className=''></Image>
+              </div>
+            </a>
+
+          </div>
+
+
+        </div>
+
+        <div className="lg:w-[55%] px-36 py-36">
+          <h2 className='text-6xl font-bold text-[#2D3545]'>We're building a better future</h2>
+        </div>
+      </section>
+      {/* PURPOSE SECTION */}
     </main>
   );
 }

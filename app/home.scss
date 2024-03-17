@@ -256,7 +256,6 @@ main {
                 top: 0px;
                 @media (min-width:1024px) {
                     top: -15% !important;
-                    transform:  !important;
                 }
             }
 
@@ -276,7 +275,28 @@ main {
                 }
             }
         }
-
-
     }
+
+    .purpose-section{
+
+        .after-img{
+            width: fit-content;
+            height: fit-content;
+
+        }
+
+        .after-img::after{
+            content: 'WHY CHOOSE US?';
+            background: white;
+            text-align: center;
+            width: 200px;
+            padding-block: 20px;
+            position: absolute;
+            right: -68px;
+            bottom: 65px;
+            transform: rotate(-90deg);
+        }
+    }
+
+
 }
