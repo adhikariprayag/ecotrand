@@ -37,9 +37,9 @@ function Footer() {
                     </div>
                 </div>
 
-                <section className='py-24'>
+                <section>
                     <div className="footer-report">
-                        <div className="container mx-auto max-w-[1200px]  flex flex-col lg:flex-row justify-evenly items-center gap-8">
+                        <div className="container mx-auto max-w-[1200px]  flex flex-col lg:flex-row justify-evenly items-center gap-8 py-20">
 
                             <div className="circle-con text-center  lg:w-1/4 w-[50%] ">
                                 <div className='relative'>
@@ -100,8 +100,7 @@ function Footer() {
 
                     </div>
                 </section>
-                {/* 
-comment */}
+             
             </footer>
 
             <section className="bottom-part text-center py-5 bg-white text-black shadow-sm align-middle">

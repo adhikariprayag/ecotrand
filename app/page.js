@@ -26,9 +26,20 @@ import leaf from '../img/leaf-3.png'
 import turbine from '../img/25.jpg'
 import leaf25 from '../img/25bg.png'
 
+//IMAGES FOR FILTER
+import f1 from '../img/f1.jpg'
+import f2 from '../img/f2.jpg'
+import f3 from '../img/f3.jpg'
+import f4 from '../img/f4.jpg'
+import f5 from '../img/f5.jpg'
+import f6 from '../img/f6.jpg'
+
+import './filter.js'
+
 import './home.scss'
 import 'animate.css';
 import Link from 'next/link';
+import Script from 'next/script';
 
 export default function Home() {
   return (
@@ -152,6 +163,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/*PLAN SECTION */}
       <section className="plan-section py-24 px-4 relative">
         <div className="container mx-auto max-w-[1200px] flex flex-col lg:flex-row py-3 lg:gap-5 gap-2">
           <div className='plan-box lg:w-[33%] w-full plan-box-1 lg:h-[25em] h-[200px] '>
@@ -182,9 +194,11 @@ export default function Home() {
         </div>
         <Image src={leaf} width={0} height={0} alt='leaf' className='absolute top-0 right-0 z-[-100] hidden sm:block'></Image>
       </section>
+      {/* PLAN SECTION */}
+
 
       {/* PURPOSE SECTION */}
-      <section className="purpose-section lg:flex ">
+      <section className="purpose-section lg:flex  py-12">
 
         <div className="lg:w-[45%] ">
           <div className='relative after-img'>
@@ -207,6 +221,74 @@ export default function Home() {
         </div>
       </section>
       {/* PURPOSE SECTION */}
+
+      {/*FILTER SECTION*/}
+      <section className="filter-section">
+        <div className="container mx-auto max-w-[1200px] py-12 px-10">
+          <div className="filter-title">
+            <h2 className='text-6xl text-[#2D3545] font-bold'> Case Studies</h2>
+          </div>
+
+          <div className="filter-nav py-12 flex justify-between items-center flex-wrap gap-5">
+            <ul className='filter-nav-items p-0 m-0 flex font-light gap-16 flex-wrap'>
+              <li className='active filter-btn' data-filter="all">ALL</li>
+              <li className='filter-btn' data-filter="turbine">WIND TURBINES</li>
+              <li className='filter-btn' data-filter="solar">SOLAR PANELS</li>
+              <li className='filter-btn' data-filter="bio">BIO ENERGY</li>
+              <li className='filter-btn' data-filter="water">WATER ENERGY</li>
+              <li className='filter-btn' data-filter="others">OTHERS</li>
+            </ul>
+            <div className='uppercase py-2 px-5 border-[green] border cursor-pointer'>See All Cases</div>
+          </div>
+
+          <div className="filter-items">
+            <div className="filter-items-container flex gap-5 flex-wrap md:flex-row flex-col justify-center">
+
+              <div className="items-con w-full h-full turbine" data-category="turbine">
+                <Image width={0} height={0} alt='picture' src={f2} ></Image>
+                <h2 className='items-title'>Windmill station in Ohio</h2>
+              </div>
+
+              <div className="items-con w-full h-full solar" data-category="solar">
+                <Image width={0} height={0} alt='picture' src={f3} ></Image>
+                <h2 className='items-title'>Renewable energy station </h2>
+              </div>
+
+              <div className="items-con w-full h-full solar" data-category="solar">
+                <Image width={0} height={0} alt='picture' src={f5} ></Image>
+                <h2 className='items-title'>Renewable energy station </h2>
+              </div>
+
+              <div className="items-con w-full h-full turbine" data-category="turbine">
+                <Image width={0} height={0} alt='picture' src={f4} ></Image>
+                <h2 className='items-title'>Renewable energy station </h2>
+              </div>
+
+              <div className="items-con w-full h-full turbine" data-category="turbine">
+                <Image width={0} height={0} alt='picture' src={f6}></Image>
+                <h2 className='items-title'>Renewable energy station </h2>
+              </div>
+
+              <div className="items-con bio" data-category="bio">
+                <Image width={0} height={0} alt='picture' src={f1} className='' ></Image>
+                <h2 className='items-title'>Electricity station</h2>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      {/*FILTER SECTION*/}
+
+      {/* TESTIMONIALS SECTION */}
+      {/* <section className='testimonial-section bg-[#80808015] py-20 '>
+
+      </section> */}
+      {/* TESTIMONIALS SECTION */}
+      
+      
     </main>
+
   );
+
 }
