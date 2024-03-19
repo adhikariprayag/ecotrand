@@ -25,6 +25,7 @@ import rotate from '../img/rotate.png'
 import leaf from '../img/leaf-3.png'
 import turbine from '../img/25.jpg'
 import leaf25 from '../img/25bg.png'
+import leaf1 from '../img/leaf-1.png'
 
 //IMAGES FOR FILTER
 import f1 from '../img/f1.jpg'
@@ -33,6 +34,10 @@ import f3 from '../img/f3.jpg'
 import f4 from '../img/f4.jpg'
 import f5 from '../img/f5.jpg'
 import f6 from '../img/f6.jpg'
+
+//IMAGES FOR TESTIMONIAL
+import q1 from '../img/quote-1.png'
+import q3 from '../img/quote-3.png'
 
 import './filter.js'
 
@@ -223,7 +228,7 @@ export default function Home() {
       {/* PURPOSE SECTION */}
 
       {/*FILTER SECTION*/}
-      <section className="filter-section">
+      <section className="filter-section py-10">
         <div className="container mx-auto max-w-[1200px] py-12 px-10">
           <div className="filter-title">
             <h2 className='text-6xl text-[#2D3545] font-bold'> Case Studies</h2>
@@ -281,12 +286,104 @@ export default function Home() {
       {/*FILTER SECTION*/}
 
       {/* TESTIMONIALS SECTION */}
-      {/* <section className='testimonial-section bg-[#80808015] py-20 '>
+      <section className='testimonial-section bg-[#80808015] py-16 '>
+        <div className="container mx-auto max-w-[1200px] px-10">
+          <div className="testimonial-title relative">
+            <h2 className='text-6xl text-[#2D3545] font-bold'>Testimonials</h2>
+            <Image src={leaf1} width={0} height={0} alt='a leaf' className='absolute top-[-150px] w-[250px] right-0 hidden md:block'></Image>
+          </div>
 
-      </section> */}
+          <div className="testimonials py-12">
+            <Swiper
+              pagination={{
+                dynamicBullets: false,
+              }}
+
+              loop={true}
+
+              modules={[]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                <div className='flex justify-between flex-col sm:flex-row'>
+                  <div className='testimonial-box'>
+                    <p>
+                      Its quite nice to find a firm that does just what they say. Efficient service married with
+                      an excellent product. Obviously installing solar cells is a long term investment . Expertly
+                      explained in a non pressure visit initially.
+                    </p>
+                    <div className="name-details">
+                      <div className="testi-img-con">
+                        <Image src={q1} width={0} height={0} alt='person'></Image>
+                      </div>
+                      <p>Ram Shakya</p>
+                    </div>
+                  </div>
+
+                  <div className='testimonial-box'>
+                    <p>
+                      Its quite nice to find a firm that does just what they say. Efficient service married with
+                      an excellent product. Obviously installing solar cells is a long term investment . Expertly
+                      explained in a non pressure visit initially.
+                    </p>
+                    <div className="name-details">
+                      <div className="testi-img-con">
+                        <Image src={q3} width={0} height={0} alt='person'></Image>
+                      </div>
+                      <p>Rani Pudasaini</p>
+                    </div>
+                  </div>
+                </div>
+
+              </SwiperSlide>
+
+              <SwiperSlide>
+
+                <div className="flex justify-between flex-col sm:flex-row">
+
+                  <div className='testimonial-box'>
+                    <p>
+                      Its quite nice to find a firm that does just what they say. Efficient service married with
+                      an excellent product. Obviously installing solar cells is a long term investment . Expertly
+                      explained in a non pressure visit initially.
+                    </p>
+                    <div className="name-details">
+                      <div className="testi-img-con">
+                        <Image src={q1} width={0} height={0} alt='person'></Image>
+                      </div>
+                      <p>Gopal Rimal</p>
+                    </div>
+                  </div>
+
+                  <div className='testimonial-box'>
+                    <p>
+                      Its quite nice to find a firm that does just what they say. Efficient service married with
+                      an excellent product. Obviously installing solar cells is a long term investment . Expertly
+                      explained in a non pressure visit initially.
+                    </p>
+                    <div className="name-details">
+                      <div className="testi-img-con">
+                        <Image src={q1} width={0} height={0} alt='person'></Image>
+                      </div>
+                      <p>Hari Shrestha</p>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+            </Swiper>
+          </div>
+        </div>
+      </section>
       {/* TESTIMONIALS SECTION */}
-      
-      
+
+      {/* CUSTOMERS SECTION */}
+      <section className="customer-section">
+        <div className="container mx-auto max-w-[1200px]"></div>
+
+
+      </section>
+      {/* CUSTOMERS SECTION */}
     </main>
 
   );
