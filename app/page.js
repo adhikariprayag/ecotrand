@@ -39,6 +39,15 @@ import f6 from '../img/f6.jpg'
 import q1 from '../img/quote-1.png'
 import q3 from '../img/quote-3.png'
 
+import c1 from '../img/firm-1.png'
+import c2 from '../img/firm-2.png'
+import c3 from '../img/firm-3.png'
+import c4 from '../img/firm-4.png'
+import c5 from '../img/firm-5.png'
+import c6 from '../img/firm-6.png'
+import c7 from '../img/firm-7.png'
+import c8 from '../img/firm-8.png'
+
 import './filter.js'
 
 import './home.scss'
@@ -203,7 +212,7 @@ export default function Home() {
 
 
       {/* PURPOSE SECTION */}
-      <section className="purpose-section lg:flex  py-12">
+      <section className="purpose-section lg:flex  py-0 md:py-12">
 
         <div className="lg:w-[45%] ">
           <div className='relative after-img'>
@@ -215,13 +224,11 @@ export default function Home() {
                 <Image src={leaf25} width={0} height={0} alt='leaf'></Image>
               </div>
             </a>
-
           </div>
-
 
         </div>
 
-        <div className="lg:w-[55%] px-28 py-36">
+        <div className="lg:w-[55%] px-28 py-20 md:py-36">
           <h2 className='text-6xl font-bold text-[#2D3545]'>We are building a better future</h2>
         </div>
       </section>
@@ -289,7 +296,7 @@ export default function Home() {
       <section className='testimonial-section bg-[#80808015] py-16 '>
         <div className="container mx-auto max-w-[1200px] px-10">
           <div className="testimonial-title relative">
-            <h2 className='text-6xl text-[#2D3545] font-bold'>Testimonials</h2>
+            <h2 className='md:text-6xl text-3xl text-[#2D3545] font-bold'>Testimonials</h2>
             <Image src={leaf1} width={0} height={0} alt='a leaf' className='absolute top-[-150px] w-[250px] right-0 hidden md:block'></Image>
           </div>
 
@@ -378,12 +385,50 @@ export default function Home() {
       {/* TESTIMONIALS SECTION */}
 
       {/* CUSTOMERS SECTION */}
-      <section className="customer-section">
-        <div className="container mx-auto max-w-[1200px]"></div>
+      <section className="customer-section py-20">
+        <div className="container mx-auto max-w-[1200px] px-10 flex flex-col items-center justify-center">
 
+          <div className='sm:flex w-full'>
 
+            <div className="sm:w-1/4 w-full con-box">
+              <Image src={c1} width={0} height={0} alt='firm'></Image>
+            </div>
+            <div className="sm:w-1/4 w-full con-box">
+              <Image src={c2} width={0} height={0} alt='firm'></Image>
+            </div>
+
+            <div className="sm:w-1/4 w-full con-box">
+              <Image src={c3} width={0} height={0} alt='firm'></Image>
+            </div>
+            <div className="sm:w-1/4 w-full con-box">
+              <Image src={c4} width={0} height={0} alt='firm'></Image>
+            </div>
+
+          </div>
+
+          <div className='sm:flex w-full '>
+              <div className="sm:w-1/4 w-full con-box">
+                <Image src={c5} width={0} height={0} alt='firm'></Image>
+              </div>
+
+              <div className="sm:w-1/4 w-full con-box">
+                <Image src={c6} width={0} height={0} alt='firm'></Image>
+              </div>
+            
+              <div className="sm:w-1/4 w-full con-box ">
+                <Image src={c7} width={0} height={0} alt='firm'></Image>
+              </div>
+
+              <div className="sm:w-1/4 w-full con-box">
+                <Image src={c8} width={0} height={0} alt='firm'></Image>
+              </div>
+            
+          </div>
+
+        </div>
       </section>
       {/* CUSTOMERS SECTION */}
+      
     </main>
 
   );

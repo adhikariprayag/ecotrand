@@ -424,4 +424,48 @@ main {
             color: rgba(128, 128, 128, 0.667);
         }
     }
+
+    .customer-section {
+
+        .con-box {
+            border: 1px solid rgba(189, 189, 189, 0.664);
+            padding-block: 50px;
+            padding-inline: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            cursor: pointer;
+
+            @media (max-width:640px) {
+                margin-block: 10px;
+            }
+        }
+
+
+
+        .con-box::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -10;
+            background-color: #2D3545;
+            transform: scale(0);
+            transition: all 0.3s;
+        }
+
+        .con-box:hover img {
+            filter: invert(20%);
+        }
+
+        .con-box:hover::after {
+            background-color: #2D3545;
+            transform: scale(1);
+        }
+
+
+    }
 }

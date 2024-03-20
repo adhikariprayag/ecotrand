@@ -9,7 +9,7 @@ function Footer() {
     return (
         <>
             <footer className='py-5'>
-                <div className="container mx-auto max-w-[1200px] flex lg:flex-row flex-col gap-10 px-5">
+                {/* <div className="container mx-auto max-w-[1200px] flex lg:flex-row flex-col gap-10 px-5">
                     <div className='lg:w-[50%]  space-y-4'>
                         <p className=' font-semibold py-4'>CONTACTS</p>
                         <h5 className='font-bold text-xl p-0 m-0'>1116 15th St, Sacramento, California, CA 95814, USA</h5>
@@ -35,11 +35,11 @@ function Footer() {
                             </form>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <section>
                     <div className="footer-report">
-                        <div className="container mx-auto max-w-[1200px]  flex flex-col lg:flex-row justify-evenly items-center gap-8 py-20">
+                        <div className="container mx-auto max-w-[1200px]  flex flex-col lg:flex-row justify-evenly items-center gap-8 pb-20">
 
                             <div className="circle-con text-center  lg:w-1/4 w-[50%] ">
                                 <div className='relative'>
