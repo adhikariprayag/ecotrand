@@ -97,7 +97,7 @@ function Footer() {
                         <div className="breadcrumb-con container mx-auto max-w-[1300px] bg-[#27D3A3] py-16 sm:px-24 px-5 flex flex-wrap z-10 justify-between items-center relative">
                             <div>
                                 <h2 className='text-white font-bold text-xl sm:text-4xl w-[60%]'>Still have any questions? <span className='text-[#2D3545]'>Get a free consultancy!</span></h2>
-                                <p className='py-3'>You can contact us through phone: 0800 123 4567 or email: ecotrand@support.com</p>
+                                <p className='py-3 text-[#2D3545]'>You can contact us through phone: 0800 123 4567 or email: ecotrand@support.com</p>
                             </div>
                             <div>
                                 <h2 className='text-stroke text-[200px] font-bold absolute top-[0%] right-10 z-[-1] hidden sm:block'>24/7</h2>
