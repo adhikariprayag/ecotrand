@@ -42,7 +42,7 @@ function Footer() {
                     <div className="footer-report">
                         <div className="container mx-auto max-w-[1200px]  flex flex-col lg:flex-row justify-evenly items-center gap-8 pb-20">
 
-                            <div className="circle-con text-center  lg:w-1/4 w-[50%] ">
+                            <div className="circle-con text-center lg:w-1/4 w-[50%] ">
                                 <div className='relative'>
                                     <h3 className='stroke-text'>6K</h3>
                                     <div className='img-con absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] hidden md:block'>
@@ -52,7 +52,7 @@ function Footer() {
 
 
                                 <p className='text-[16px] font-semibold uppercase text-[#2D3545] '>COMPLETED</p>
-                                <p className='font-bold text-3xl text-[#2D3545]'>PROJECTS</p>
+                                <p className='font-bold sm:text-3xl text-[16px] text-[#2D3545] '>PROJECTS</p>
                             </div>
 
                             <div className="circle-con text-center lg:w-1/4 w-[50%]">
@@ -63,7 +63,7 @@ function Footer() {
                                     </div>
                                 </div>
                                 <p className='text-[16px] font-semibold uppercase text-[#2D3545]'>SATISFIED</p>
-                                <p className='font-bold text-3xl text-[#2D3545] uppercase'>Customers</p>
+                                <p className='font-bold sm:text-3xl text-[16px] text-[#2D3545] uppercase'>Customers</p>
                             </div>
 
                             <div className="circle-con text-center lg:w-1/4 w-[50%]">
@@ -74,7 +74,7 @@ function Footer() {
                                     </div>
                                 </div>
                                 <p className='text-[16px] font-semibold uppercase text-[#2D3545]'>EARNED</p>
-                                <p className='font-bold text-3xl text-[#2D3545] tracking-widest'>AWARDS</p>
+                                <p className='font-bold sm:text-3xl text-[16px] text-[#2D3545] tracking-widest'>AWARDS</p>
                             </div>
 
                             <div className="circle-con text-center lg:w-1/4 w-[50%]">
@@ -85,7 +85,7 @@ function Footer() {
                                     </div>
                                 </div>
                                 <p className='text-[16px] font-semibold uppercase text-[#2D3545]'>Years</p>
-                                <p className='font-bold text-3xl text-[#2D3545] uppercase'>Experience</p>
+                                <p className='font-bold sm:text-3xl text-[16px] text-[#2D3545] uppercase'>Experience</p>
                             </div>
 
                         </div>

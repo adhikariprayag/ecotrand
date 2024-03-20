@@ -1,0 +1,39 @@
+.about-page{
+
+    .text-stroke {
+        color: black;
+        -webkit-text-fill-color: transparent;
+        /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #fff;
+    }
+
+    .text-stroke-black {
+        color: black;
+        -webkit-text-fill-color: transparent;
+        /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #8181815b;
+    }
+
+    .bg-container{
+        background-image: linear-gradient(rgba(128, 128, 128, 0.423), rgba(128, 128, 128, 0.451)), url(../../img/about.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
+    .about-main{
+
+        h2{
+            position: relative;
+        }
+
+        .back-text{
+            position: absolute;
+            top: -50px;
+            left: 0;
+            z-index: -1;
+        }
+    }
+}
