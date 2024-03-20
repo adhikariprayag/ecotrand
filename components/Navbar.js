@@ -44,7 +44,7 @@ function Navbar() {
             <section className="navbar-main py-6 px-5 bg-[#ffffff] sticky top-0 shadow">
                 <div className="container mx-auto flex flex-wrap items-center justify-between">
                     <div>
-                        <Link href="/"><Image priority src={Logo} alt='logo' width={0} height={0} className='object-cover'></Image></Link>
+                        <Link href="/"><Image priority src={Logo} alt='logo' width={0} height={0} className='object-cover w-[120px] sm:w-full'></Image></Link>
                     </div>
 
                     <div className='nav-item-mid hidden lg:block'>

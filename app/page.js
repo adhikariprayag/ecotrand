@@ -229,7 +229,7 @@ export default function Home() {
         </div>
 
         <div className="lg:w-[55%] px-28 py-20 md:py-36">
-          <h2 className='text-6xl font-bold text-[#2D3545]'>We are building a better future</h2>
+          <h2 className='text-5xl md:text-6xl font-bold text-[#2D3545]'>We are building a better future</h2>
         </div>
       </section>
       {/* PURPOSE SECTION */}
@@ -238,7 +238,7 @@ export default function Home() {
       <section className="filter-section py-10">
         <div className="container mx-auto max-w-[1200px] py-12 px-10">
           <div className="filter-title">
-            <h2 className='text-6xl text-[#2D3545] font-bold'> Case Studies</h2>
+            <h2 className='md:text-6xl text-4xl text-[#2D3545] font-bold'> Case Studies</h2>
           </div>
 
           <div className="filter-nav py-12 flex justify-between items-center flex-wrap gap-5">
@@ -428,7 +428,7 @@ export default function Home() {
         </div>
       </section>
       {/* CUSTOMERS SECTION */}
-      
+
     </main>
 
   );

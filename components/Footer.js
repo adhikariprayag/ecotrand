@@ -3,6 +3,7 @@ import './Footer.scss'
 import Link from 'next/link'
 import Image from 'next/image'
 import text1 from '../img/text1.png'
+import 'remixicon/fonts/remixicon.css'
 
 
 function Footer() {
@@ -91,16 +92,59 @@ function Footer() {
                     </div>
                 </section>
 
-                <section className="links flex">
-                    <div className='w-1/2 bg-[#28303E] py-10'>
+                <section className="links-section lg:flex text-white ">
+                    <div className='lg:w-1/2 w-full bg-[#28303E] py-32 px-10'>
+
+                        <div className=" flex md:justify-evenly flex-col md:flex-row justify-center ">
+                            <ul className='text-[#7E8694]'>
+                                <li className='text-white pb-5 font-semibold uppercase'>Useful Link</li>
+                                <li><a href="">Wind Turbines</a></li>
+                                <li><a href="">Solar Panels</a></li>
+                                <li><a href="">Hydropower Plants</a></li>
+                                <li><a href="">Fossil Resources</a></li>
+                            </ul>
+
+                            <ul className='text-[#7E8694] '>
+                                <li className='text-white pb-5 font-semibold uppercase'>Support</li>
+                                <li><a href="">Terms & Conditions</a></li>
+                                <li><a href="">Shipping Policy</a></li>
+                                <li><a href="">Delivery Tips</a></li>
+                                <li><a href="">Returns</a></li>
+                            </ul>
+
+                            <ul className='text-[#7E8694]'>
+                                <li className='text-white pb-5 font-semibold uppercase'>Company</li>
+                                <li><a href="">About us</a></li>
+                                <li><a href="">Our gallery</a></li>
+                                <li><a href="">Our cases</a></li>
+                                <li><a href="">News & events</a></li>
+                            </ul>
+                        </div>
 
                     </div>
 
-                    <div className='w-1/2 bg-[#2D3545] py-10'>
+                    <div className='lg:w-1/2 w-full bg-[#2D3545] py-32 flex justify-center items-center'>
+                        <ul className='text-[#7E8694] w-full newsletter-box px-28'>
+                            <li className='text-white pb-5 font-semibold uppercase'>NEWSLETTER</li>
+                            <li className='flex sm:flex-nowrap flex-wrap'>
+                                <div className='w-full'>
+                                <input type="email" name="email" id="email" placeholder='Email Address' className='bg-transparent w-full outline-none ' />
+                                <div className='border-animate'></div>
+                                </div>
+                                
+                                <button type="submit"><i className="ri-pencil-line text-white text-xl"></i></button>
+                            </li>
 
+                            <div className="flex flex-wrap footer-icons gap-10 justify-center text-white">
+                                <li><a href=""><i className="ri-facebook-line"></i></a></li>
+                                <li><a href=""><i className="ri-linkedin-fill"></i></a></li>
+                                <li><a href=""><i className="ri-twitter-fill"></i></a></li>
+                            </div>
+
+                        </ul>
                     </div>
                 </section>
-             
+
             </footer>
 
             <section className="bottom-part text-center py-5 bg-white text-black shadow-sm align-middle">
