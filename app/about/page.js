@@ -176,7 +176,7 @@ function About() {
           <a href="https://www.youtube.com/watch?v=1kUE0BZtTRc" target='_blank'><div className="play-icon"><i className="ri-play-line"></i></div></a>
         </div>
 
-        <div className="about-team py-20">
+        <div className="about-team pt-20 pb-5">
 
           <div className='container mx-auto max-w-[1500px] px-10'>
             <div className='w-full'>
@@ -198,7 +198,7 @@ function About() {
                 className="mySwiper"
               >
                 <SwiperSlide>
-                  <div className='sm:flex justify-evenly '>
+                  <div className='sm:flex justify-evenly lg:gap-20 sm:gap-5'>
 
                     <div className="slider-main lg:w-1/3 w-full flex flex-col gap-2">
                       <div className="slider-box ">
@@ -248,7 +248,7 @@ function About() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className='sm:flex justify-evenly'>
+                  <div className='sm:flex justify-evenly lg:gap-20 sm:gap-5'>
 
                     <div className="slider-main lg:w-1/3 w-full flex flex-col gap-2">
                       <div className="slider-box  ">

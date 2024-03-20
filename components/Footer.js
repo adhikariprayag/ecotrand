@@ -38,7 +38,7 @@ function Footer() {
                     </div>
                 </div> */}
 
-                <section>
+                <section className='lg:pb-[190px]'>
                     <div className="footer-report">
                         <div className="container mx-auto max-w-[1200px]  flex flex-col lg:flex-row justify-evenly items-center gap-8 pb-20">
 
@@ -92,59 +92,75 @@ function Footer() {
                     </div>
                 </section>
 
-                <section className="links-section lg:flex text-white ">
-                    <div className='lg:w-1/2 w-full bg-[#28303E] py-32 px-10'>
-
-                        <div className=" flex md:justify-evenly flex-col md:flex-row justify-center ">
-                            <ul className='text-[#7E8694]'>
-                                <li className='text-white pb-5 font-semibold uppercase'>Useful Link</li>
-                                <li><a href="">Wind Turbines</a></li>
-                                <li><a href="">Solar Panels</a></li>
-                                <li><a href="">Hydropower Plants</a></li>
-                                <li><a href="">Fossil Resources</a></li>
-                            </ul>
-
-                            <ul className='text-[#7E8694] '>
-                                <li className='text-white pb-5 font-semibold uppercase'>Support</li>
-                                <li><a href="">Terms & Conditions</a></li>
-                                <li><a href="">Shipping Policy</a></li>
-                                <li><a href="">Delivery Tips</a></li>
-                                <li><a href="">Returns</a></li>
-                            </ul>
-
-                            <ul className='text-[#7E8694]'>
-                                <li className='text-white pb-5 font-semibold uppercase'>Company</li>
-                                <li><a href="">About us</a></li>
-                                <li><a href="">Our gallery</a></li>
-                                <li><a href="">Our cases</a></li>
-                                <li><a href="">News & events</a></li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                    <div className='lg:w-1/2 w-full bg-[#2D3545] py-32 flex justify-center items-center'>
-                        <ul className='text-[#7E8694] w-full newsletter-box px-28'>
-                            <li className='text-white pb-5 font-semibold uppercase'>NEWSLETTER</li>
-                            <li className='flex sm:flex-nowrap flex-wrap'>
-                                <div className='w-full'>
-                                <input type="email" name="email" id="email" placeholder='Email Address' className='bg-transparent w-full outline-none ' />
-                                <div className='border-animate'></div>
+                <div className='relative'>
+                    <section className="breadcrumb lg:absolute z-20 lg:top-[-50%]  lg:translate-y-[50%] w-full py-16 lg:py-0 px-5">
+                        <div className="breadcrumb-con container mx-auto max-w-[1300px] bg-[#27D3A3] py-16 sm:px-24 px-5 flex flex-wrap z-10 justify-between items-center relative">
+                            <div>
+                                <h2 className='text-white font-bold text-xl sm:text-4xl w-[60%]'>Still have any questions? <span className='text-[#2D3545]'>Get a free consultancy!</span></h2>
+                                <p className='py-3'>You can contact us through phone: 0800 123 4567 or email: ecotrand@support.com</p>
+                            </div>
+                            <div>
+                                <h2 className='text-stroke text-[200px] font-bold absolute top-[0%] right-10 z-[-1] hidden sm:block'>24/7</h2>
+                                <div className='nav-item-btn '>
+                                    <Link href="/contact" className='uppercase md:py-4 md:px-6 py-4 px-2 bg-[white] font-light '>Request A Quote</Link>
                                 </div>
-                                
-                                <button type="submit"><i className="ri-pencil-line text-white text-xl"></i></button>
-                            </li>
+                            </div>
+                        </div>
+                    </section>
 
-                            <div className="flex flex-wrap footer-icons gap-10 justify-center text-white">
-                                <li><a href=""><i className="ri-facebook-line"></i></a></li>
-                                <li><a href=""><i className="ri-linkedin-fill"></i></a></li>
-                                <li><a href=""><i className="ri-twitter-fill"></i></a></li>
+                    <section className="links-section lg:flex text-white md:relative ">
+                        <div className='lg:w-1/2 w-full bg-[#28303E] md:py-48 py-32 px-10 '>
+
+                            <div className=" flex md:justify-evenly flex-col md:flex-row justify-center ">
+                                <ul className='text-[#7E8694]'>
+                                    <li className='text-white pb-5 font-semibold uppercase'>Useful Link</li>
+                                    <li><a href="">Wind Turbines</a></li>
+                                    <li><a href="">Solar Panels</a></li>
+                                    <li><a href="">Hydropower Plants</a></li>
+                                    <li><a href="">Fossil Resources</a></li>
+                                </ul>
+
+                                <ul className='text-[#7E8694] '>
+                                    <li className='text-white pb-5 font-semibold uppercase'>Support</li>
+                                    <li><a href="">Terms & Conditions</a></li>
+                                    <li><a href="">Shipping Policy</a></li>
+                                    <li><a href="">Delivery Tips</a></li>
+                                    <li><a href="">Returns</a></li>
+                                </ul>
+
+                                <ul className='text-[#7E8694]'>
+                                    <li className='text-white pb-5 font-semibold uppercase'>Company</li>
+                                    <li><a href="">About us</a></li>
+                                    <li><a href="">Our gallery</a></li>
+                                    <li><a href="">Our cases</a></li>
+                                    <li><a href="">News & events</a></li>
+                                </ul>
                             </div>
 
-                        </ul>
-                    </div>
-                </section>
+                        </div>
 
+                        <div className='lg:w-1/2 w-full bg-[#2D3545] py-32 flex justify-center items-center'>
+                            <ul className='text-[#7E8694] w-full newsletter-box px-28'>
+                                <li className='text-white pb-5 font-semibold uppercase'>NEWSLETTER</li>
+                                <li className='flex sm:flex-nowrap flex-wrap'>
+                                    <div className='w-full'>
+                                        <input type="email" name="email" id="email" placeholder='Email Address' className='bg-transparent w-full outline-none ' />
+                                        <div className='border-animate'></div>
+                                    </div>
+
+                                    <button type="submit"><i className="ri-pencil-line text-white text-xl"></i></button>
+                                </li>
+
+                                <div className="flex flex-wrap footer-icons gap-10 justify-center text-white">
+                                    <li><a href=""><i className="ri-facebook-line"></i></a></li>
+                                    <li><a href=""><i className="ri-linkedin-fill"></i></a></li>
+                                    <li><a href=""><i className="ri-twitter-fill"></i></a></li>
+                                </div>
+
+                            </ul>
+                        </div>
+                    </section>
+                </div>
             </footer>
 
             <section className="bottom-part text-center py-5 bg-white text-black shadow-sm align-middle">
