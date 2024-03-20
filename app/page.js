@@ -53,7 +53,6 @@ import './filter.js'
 import './home.scss'
 import 'animate.css';
 import Link from 'next/link';
-import Script from 'next/script';
 
 export default function Home() {
   return (

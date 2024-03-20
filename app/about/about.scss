@@ -1,4 +1,4 @@
-.about-page{
+.about-page {
 
     .text-stroke {
         color: black;
@@ -16,24 +16,114 @@
         -webkit-text-stroke-color: #8181815b;
     }
 
-    .bg-container{
+    .bg-container {
         background-image: linear-gradient(rgba(128, 128, 128, 0.423), rgba(128, 128, 128, 0.451)), url(../../img/about.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        
+
     }
 
-    .about-main{
+    .about-main {
 
-        h2{
+        h2 {
             position: relative;
         }
 
-        .back-text{
+        .back-text {
             position: absolute;
             top: -50px;
             left: 0;
             z-index: -1;
+        }
+
+    }
+
+    .about-why {
+
+        .about-contents {
+
+            counter-reset: counter-name;
+
+            .about-content {
+
+
+                .divider {
+                    width: 99%;
+                    height: 1.8px;
+                    background-color: rgba(128, 128, 128, 0.148);
+                    margin-block: 30px;
+                    margin-left: auto;
+                    position: relative;
+
+                }
+
+                .divider::before {
+                    content: counter(counter-name);
+                    counter-increment: counter-name;
+                    position: absolute;
+                    left: -20px;
+                    top: -12px;
+                    font-weight: lighter;
+                }
+            }
+        }
+    }
+
+    .about-vid {
+        position: relative;
+
+        .play-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 44px;
+            color: white;
+            transform: translate(-50%);
+            border: 1px solid #fff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+
+            @media (max-width:540px) {
+                padding: 10px;
+                width: 10px;
+                height: 10px;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .about-team {
+
+        .team-slider {
+
+            margin-block: 80px;
+
+            .slider-box {
+                cursor: pointer;
+                object-fit: cover;
+                transition: all 0.5s;
+                overflow: hidden;
+
+                img {
+                    display: block;
+                    z-index: -1;
+                    transition: all 0.3s;
+                }
+            }
+
+            .slider-box:hover {
+
+                img {
+                    transform: scale(1.02);
+                    filter: invert(2%);
+                }
+            }
         }
     }
 }
