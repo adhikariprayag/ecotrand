@@ -3,4 +3,6 @@ Technologies Used:
 <ul>
   <Li>Next JS</Li>
   <li>Tailwind CSS</li>
+  <li>Animate.css</li>
+  <li>Swiper Js</li>
 </ul>
